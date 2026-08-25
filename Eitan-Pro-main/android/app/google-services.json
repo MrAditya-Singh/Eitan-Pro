@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "412158092001",
+    "project_id": "eitanapp-884b0",
+    "storage_bucket": "eitanapp-884b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412158092001:android:c94c87f3a61787defd8da0",
+        "android_client_info": {
+          "package_name": "com.aditya.cookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412158092001-kpmecib3375s9m48s7cf7th1d314r24e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8UvP-oQSrBIt5WvLLiB-Bs0ZA44EYmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412158092001-kpmecib3375s9m48s7cf7th1d314r24e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412158092001:android:217eb5b2e5842b45fd8da0",
+        "android_client_info": {
+          "package_name": "com.example.cookapp.cook_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412158092001-kpmecib3375s9m48s7cf7th1d314r24e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8UvP-oQSrBIt5WvLLiB-Bs0ZA44EYmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412158092001-kpmecib3375s9m48s7cf7th1d314r24e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

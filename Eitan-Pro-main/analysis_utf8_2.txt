@@ -1,0 +1,46 @@
+﻿Analyzing CookApp...                                            
+
+warning - Unused import: 'package:cook_app/data_seeder.dart' - lib\main.dart:5:8 - unused_import
+   info - Unnecessary 'const' keyword - lib\providers\theme_provider.dart:44:16 - unnecessary_const
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\in_the_news.dart:89:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_attend.dart:79:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_cook.dart:110:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_cook.dart:132:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_read.dart:79:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_read.dart:90:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_share.dart:172:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_share.dart:206:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_watch.dart:193:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\drawer_screens\what_to_watch.dart:290:43 - deprecated_member_use
+warning - Unused import: '../services/auth_service.dart' - lib\screens\home_screen.dart:15:8 - unused_import
+  error - The method '_buildDrawer' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:172:15 - undefined_method
+  error - The method '_buildFeatureButton' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:289:19 - undefined_method
+  error - The method '_buildFeatureButton' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:294:19 - undefined_method
+  error - The method '_buildFeatureButton' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:297:19 - undefined_method
+  error - The method '_buildFeatureButton' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:298:19 - undefined_method
+  error - The method '_buildQuickPickCard' isn't defined for the type '_HomeScreenState' - lib\screens\home_screen.dart:327:34 - undefined_method
+warning - Dead code - lib\screens\home_screen.dart:408:3 - dead_code
+   info - The local variable '_buildDrawer' starts with an underscore - lib\screens\home_screen.dart:408:10 - no_leading_underscores_for_local_identifiers
+warning - The declaration '_buildDrawer' isn't referenced - lib\screens\home_screen.dart:408:10 - unused_element
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:510:17 - referenced_before_declaration
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:511:17 - referenced_before_declaration
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:512:17 - referenced_before_declaration
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:513:17 - referenced_before_declaration
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:514:17 - referenced_before_declaration
+  error - Local variable '_buildDrawerTile' can't be referenced before it is declared - lib\screens\home_screen.dart:515:17 - referenced_before_declaration
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\home_screen.dart:540:19 - deprecated_member_use
+   info - The local variable '_buildDrawerTile' starts with an underscore - lib\screens\home_screen.dart:554:10 - no_leading_underscores_for_local_identifiers
+   info - The local variable '_buildFeatureButton' starts with an underscore - lib\screens\home_screen.dart:605:10 - no_leading_underscores_for_local_identifiers
+warning - The declaration '_buildFeatureButton' isn't referenced - lib\screens\home_screen.dart:605:10 - unused_element
+   info - The local variable '_buildQuickPickCard' starts with an underscore - lib\screens\home_screen.dart:662:10 - no_leading_underscores_for_local_identifiers
+warning - The declaration '_buildQuickPickCard' isn't referenced - lib\screens\home_screen.dart:662:10 - unused_element
+  error - Expected to find '}' - lib\screens\home_screen.dart:726:1 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\login_screen.dart:174:35 - deprecated_member_use
+   info - Use interpolation to compose strings and values - lib\screens\search_screen.dart:39:49 - prefer_interpolation_to_compose_strings
+   info - Use interpolation to compose strings and values - lib\screens\search_screen.dart:58:86 - prefer_interpolation_to_compose_strings
+   info - Don't use 'BuildContext's across async gaps - lib\screens\search_screen.dart:62:32 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:17:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:28:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:38:7 - avoid_print
+warning - Unnecessary cast - lib\services\database_service.dart:20:36 - unnecessary_cast
+
